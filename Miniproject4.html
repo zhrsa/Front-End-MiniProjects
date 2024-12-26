@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo-List</title>
+        <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+        <link href="MiniProject4.css" rel="stylesheet" />
+    </head>
+    <body dir="rtl">
+        <div class="vip-offer">
+            <h2>ویژه شوید!</h2>
+            <p>با خرید اشتراک ویژه از تمامی امکانات سامانه بهره مند شوید.</p>
+        </div>
+        <div class="page-container">
+            <div class="flex-container">
+                <header>
+                    <div class="header-info">
+                        <h1>تودو!</h1>
+                        <div class="user-info">خوش آمدید، زهرا سیاری</div>
+                    </div>
+                    <a href="#" class="logout-btn">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                </header>
+                <form>
+                    <div class="input-wrapper">
+                        <input type="text" name="todo" id="todo" placeholder="یک کار جدید اضافه کن :)">
+                    </div>
+                    <button type="submit" class="add-todo"><i class="fa-solid fa-plus"></i></button>
+                </form>
+                <div class="todo-list-container">
+                    <ul class="list">
+                        <li class="todo-item">
+                            <div class="desc">
+                                یک متن برای انجام دادن
+                            </div>
+                            <div class="options">
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-solid fa-check"></i>
+                                </button>
+                            </div>
+                        </li>
+                        <!-- <li class="todo-item">
+                            <div class="desc">
+                                یک متن برای انجام دادن
+                            </div>
+                            <div class="options">
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-solid fa-check"></i>
+                                </button>
+                            </div>
+                        </li> -->
+                        <!-- <li class="todo-item">
+                            <div class="desc">
+                                یک متن برای انجام دادن
+                            </div>
+                            <div class="options">
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-solid fa-check"></i>
+                                </button>
+                            </div>
+                        </li> -->
+                        <li class="todo-item done">
+                            <div class="desc">
+                                یک متن برای انجام دادن
+                            </div>
+                            <div class="options">
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                                <button class="todo-btn">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="MiniProject4.js"></script>
+    </body>
+</html>

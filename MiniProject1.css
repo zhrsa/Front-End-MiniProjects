@@ -1,0 +1,91 @@
+body,*{
+    font-family:Shabnam;
+}
+body{
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ??????? */
+    flex-wrap: wrap;
+    /* ??????? */
+    height:100vh; 
+}
+.card{
+    background-color: white;
+    width : 275px;
+    border-radius: 15px;
+    padding: 50px;
+    /* ??????? */
+    position: relative;
+    box-shadow: 0 0 25px 0px rgb(0 0 0 / 20%);
+    color: #3F3F3F;
+}
+.back-footage{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.back-overlay{
+    position: fixed;
+    background-color: rgba(0,0,0,0.25);
+    width: 100vw;
+    height: 100vh;
+}
+.card h1{
+    text-align: center;
+    margin-top: 0;
+}
+.card > .content p{
+    font-size: 15px;
+    font-weight: 300px;
+}
+.card input {
+    border : none;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 15px;
+    display: block;
+    padding : 15px 0;
+    width:100%;
+}
+.card input::placeholder{
+    font-size:15px;
+}
+.card input:focus{
+    outline:none;
+    border-bottom: 1px solid #000;
+}
+.card input:focus::placeholder{
+    color:#000;
+}
+.card small{
+    color : red;
+    position: relative;
+    top: -10px;
+}
+.card button{
+    border :none;
+    background-color: #c7a480;
+    width : 100%;
+    border-radius: 5px;
+    color: #fff;
+    font-size : 17px;
+    padding : 15px;
+    margin: 20px 0;
+}
+.card > .footer{
+    text-align: center;
+}
+.card > .footer p{
+    margin: 0;
+}
+.card > .footer a{
+    text-decoration: none;
+}
+
+
+
+
